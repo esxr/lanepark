@@ -199,13 +199,14 @@ class Header extends Component {
               alt="Menu icon"
             />
             <Link href="/">
-              <a>
+              {/* <a>
                 <img
                   src="/images/commerce.svg"
                   className="logo cursor-pointer"
                   alt="Logo"
                 />
-              </a>
+              </a> */}
+              <h1>Lanepark</h1>
             </Link>
           </div>
           <div className="d-flex">

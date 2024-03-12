@@ -6,45 +6,47 @@ import Footer from '../components/common/Footer';
 const About = () => (
   <Root>
     <Head>
-      <title>About | commerce</title>
+      <title>About Lanepark | Modern Minimalism Meets Sustainability</title>
     </Head>
     <div className="about-container">
-      {/* Row */}
+      {/* Row 1: Lanepark Introduction */}
       <div className="row mt-5 pt-5 about-hero">
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
-            <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5 justify-content-center">
-              <h2 className="font-size-header mb-4">
-                Commerce.js Demo Store
-              </h2>
-              <h4 className="font-size-subheader mb-4">
-                This is an open source storefront built using Chec’s headless architecture and the Commerce.js SDK. Commerce.js is a smarter, more efficient way to build eCommerce projects, and we hope you can see that as you explore the world custom eCommerce. Please build on top of, or pick apart this project for your own use. Everything in this project, from the storefront, to the cart, checkout and receipt, is 100% customizable. To build more custom eCommerce projects, using any frontend framework or platform, head over to <a href="https://commercejs.com/" target="_blank" className="cjs-link" rel="noopener noreferrer">commercejs.com</a>.
-              </h4>
-              <div className="about-cjs mt-3 d-flex flex-row">
-                <a className="px-4 py-3 font-color-white about-doc" href="https://commercejs.com/docs/" target="_blank" rel="noopener noreferrer">
-                  Documentation
-                </a>
-                <a className="px-4 py-3 about-dev" href="https://commercejs.com/docs/community/" target="_blank" rel="noopener noreferrer">
-                  Guides from the community
-                </a>
-              </div>
+          <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5 justify-content-center">
+            <h2 className="font-size-header mb-4">
+              Discover Lanepark
+            </h2>
+            <p className="font-size-subheader mb-4">
+              Lanepark is the epitome of modern minimalism, merging sleek design with functional elegance. Our vision is to craft clothing that supports a mindful lifestyle without compromising on style or sustainability. Each piece in our collection reflects our dedication to ethical practices, premium materials, and timeless designs. Immerse yourself in our world of everyday essentials, professional ensembles, and leisurely attire—all underpinned by our minimalist ethos and commitment to the planet.
+            </p>
+            <div className="about-lanepark mt-3 d-flex flex-row">
+              <a className="px-4 py-3 font-color-white about-explore" href="/collections" rel="noopener noreferrer">
+                Explore Collections
+              </a>
+              <a className="px-4 py-3 about-sustainability" href="/sustainability" rel="noopener noreferrer">
+                Our Commitment
+              </a>
             </div>
           </div>
+        </div>
 
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/cjs-illustration.svg" alt="Commerce.js illustration"/>
+              {/* Adjusted image size with inline styling */}
+              <img src="/minimalist-fashion-illustration.jpg" alt="Lanepark Collections" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
             </div>
           </div>
         </div>
       </div>
 
-      {/* Row 2 */}
+      {/* Row 2: Sustainability and Quality */}
       <div className="row">
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/netlify-illustration.svg" alt="Netlify illustration"/>
+              {/* Adjusted image size with inline styling */}
+              <img src="/eco-friendly-fashion-illustration.jpg" alt="Sustainability at Lanepark" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
             </div>
           </div>
         </div>
@@ -52,43 +54,41 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column justify-content-center py-5 px-4 px-sm-5">
             <h3 className="font-size-header mb-4">
-              Deploy to Netlify
+              Our Ethos: Quality & Sustainability
             </h3>
-            <h4 className="font-size-subheader mb-4">
-              If you would like to deploy this project live today, click the button below and watch the magic happen!
-            </h4>
+            <p className="font-size-subheader mb-4">
+              Lanepark stands at the intersection of innovation and responsibility. Our approach to sustainability transcends mere trends, focusing on meaningful impacts. We embrace materials and processes that respect the earth, ensuring durability and comfort without compromise. Learn about our journey towards sustainability, where every choice is guided by integrity and a vision for a better world.
+            </p>
             <div className="mt-3">
               <a
-                className="px-4 py-3 flex-grow-1 font-color-white about-net"
-                href="https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store"
-                target="_blank"
+                className="px-4 py-3 flex-grow-1 font-color-white about-quality"
+                href="/quality-sustainability"
                 rel="noopener noreferrer"
               >
-                Deploy to Netlify
+                Discover More
               </a>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Row 3 */}
+      {/* Row 3: Engage and Connect */}
       <div className="row">
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column justify-content-center py-5 px-4 px-sm-5">
             <h3 className="font-size-header mb-4">
-              Clone in GitHub
+              Join Our Community
             </h3>
-            <h4 className="font-size-subheader mb-4">
-            If you would like to clone this project and do a manual setup, go to the repository below!
-            </h4>
+            <p className="font-size-subheader mb-4">
+              Embrace a lifestyle of thoughtful elegance with Lanepark. Stay informed about our evolving collections and gain exclusive access to offers designed just for you. Engage with us for insights into sustainability, styling tips, and the latest in minimalist fashion. Your path to a refined and conscious wardrobe begins with Lanepark.
+            </p>
             <div className="mt-3">
               <a
-                className="px-4 py-3 flex-grow-1 font-color-white about-gb"
-                href="https://github.com/chec/commercejs-nextjs-demo-store"
-                target="_blank"
+                className="px-4 py-3 flex-grow-1 font-color-white about-connect"
+                href="/contact"
                 rel="noopener noreferrer"
               >
-                Clone in GitHub
+                Get in Touch
               </a>
             </div>
           </div>
@@ -97,39 +97,8 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/github-illustration.svg" alt="GitHub illustration"/>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Row 4 */}
-      <div className="row">
-        <div className="col-12 col-lg-6">
-          <div className="about-image h-100">
-            <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/blog-illustration.svg" alt="Commerce.js blog illustration"/>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
-          <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5">
-            <h3 className="font-size-header mb-4">
-              Technical Blog
-            </h3>
-            <h4 className="font-size-subheader mb-4">
-              Read the full technical tutorial here if you want to get into the nitty gritty!
-            </h4>
-            <div className="mt-3">
-              <a
-                className="px-5 py-3 flex-grow-1 font-color-white about-blog"
-                href="https://www.netlify.com/blog/2020/07/09/create-a-fully-fledged-jamstack-commerce-store-with-commerce.js-and-netlify/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Read Blog
-              </a>
+              {/* Adjusted image size with inline styling */}
+              <img src="/community-illustration.jpg" alt="Connect with Lanepark" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
             </div>
           </div>
         </div>
