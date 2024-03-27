@@ -1,0 +1,42 @@
+[
+  {
+    "link": "products[0].id",
+    "filename": "modern-minimal-top.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/modern-minimal-top.jpg"
+  },
+  {
+    "link": "products[0].id",
+    "filename": "modern-minimal-pants.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/modern-minimal-pants.jpg"
+  },
+  {
+    "link": "products[1].id",
+    "filename": "professional-blazer.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/professional-blazer.jpg"
+  },
+  {
+    "link": "products[1].id",
+    "filename": "professional-skirt.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/professional-skirt.jpg"
+  },
+  {
+    "link": "products[2].id",
+    "filename": "casual-jacket.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/casual-jacket.jpg"
+  },
+  {
+    "link": "products[2].id",
+    "filename": "casual-jeans.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/casual-jeans.jpg"
+  },
+  {
+    "link": "products[3].id",
+    "filename": "eco-friendly-dress.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/eco-friendly-dress.jpg"
+  },
+  {
+    "link": "products[3].id",
+    "filename": "eco-friendly-bag.jpg",
+    "url": "https://examplecdn.com/lanepark/collection/eco-friendly-bag.jpg"
+  }
+]

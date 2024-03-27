@@ -1,0 +1,113 @@
+[
+  {
+    "product": {
+      "name": "Minimalist Cotton Tee",
+      "description": "Crafted for comfort and simplicity, our minimalist cotton tee is a staple for every wardrobe. Designed with sustainability in mind.",
+      "price": "20.00",
+      "category_id": "categories[0].id"
+    },
+    "variant": [
+      {
+        "name": "Size",
+        "options": [
+          {
+            "description": "Small",
+            "price": "0.00"
+          },
+          {
+            "description": "Large",
+            "price": "20.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": {
+      "name": "Eco-Friendly Linen Dress",
+      "description": "Experience elegance and comfort with our eco-friendly linen dress, perfect for any casual outing. Made with eco-conscious materials.",
+      "price": "45.00",
+      "category_id": "categories[3].id"
+    },
+    "variant": [
+      {
+        "name": "Size",
+        "options": [
+          {
+            "description": "Medium",
+            "price": "0.00"
+          },
+          {
+            "description": "Extra Large",
+            "price": "45.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": {
+      "name": "Professional Blazer",
+      "description": "Elevate your professional attire with our sleek blazer. Tailored for sophistication and made from premium materials.",
+      "price": "70.00",
+      "category_id": "categories[1].id"
+    },
+    "variant": [
+      {
+        "name": "Size",
+        "options": [
+          {
+            "description": "Medium",
+            "price": "0.00"
+          },
+          {
+            "description": "Large",
+            "price": "70.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": {
+      "name": "Sustainable Denim Jeans",
+      "description": "Our sustainable denim jeans are a testament to style, comfort, and environmental responsibility. Perfect for casual wear.",
+      "price": "55.00",
+      "category_id": "categories[2].id"
+    },
+    "variant": [
+      {
+        "name": "Size",
+        "options": [
+          {
+            "description": "32",
+            "price": "0.00"
+          },
+          {
+            "description": "34",
+            "price": "55.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": {
+      "name": "Bamboo Fiber Socks",
+      "description": "Step into comfort with our bamboo fiber socks. Eco-friendly, breathable, and designed to keep your feet comfortable all day long.",
+      "price": "12.00",
+      "category_id": "categories[3].id"
+    },
+    "variant": [
+      {
+        "name": "Size",
+        "options": [
+          {
+            "description": "One Size",
+            "price": "0.00"
+          }
+        ]
+      }
+    ]
+  }
+]

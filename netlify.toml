@@ -1,0 +1,15 @@
+[build]
+  command = "npm run deploy"
+  publish = "out"
+
+[[plugins]]
+  package = "netlify-plugin-onboarding"
+
+[template.environment]
+  NEXT_PUBLIC_CHEC_PUBLIC_KEY = "Chec Public Key (under Setup > Developer)"
+
+[build.environment]
+  NODE_VERSION = "14"
+
+[context.production.environment]
+  NODE_VERSION = "17"
