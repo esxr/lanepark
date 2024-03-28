@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/insta/1.jpg',
     translateRatio: -50
   },
   {
