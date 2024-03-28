@@ -39,7 +39,7 @@ export default function HeroSection() {
               }}
             >
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                Elegance in Simplicity
+                Elegance in Simplicitys
               </p>
               <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
                 Discover Modern, Minimalist Fashion

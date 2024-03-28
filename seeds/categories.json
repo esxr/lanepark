@@ -3,28 +3,21 @@
     "slug": "everyday-wear",
     "name": "Everyday Wear",
     "meta": {
-      "image": "/images/collection/everyday-wear.png"
+      "image": "/images/collection/1.jpg"
     }
   },
   {
     "slug": "professional-attire",
     "name": "Professional Attire",
     "meta": {
-      "image": "/images/collection/professional-attire.png"
+      "image": "/images/collection/2.jpg"
     }
   },
   {
     "slug": "casual-outfits",
     "name": "Casual Outfits",
     "meta": {
-      "image": "/images/collection/casual-outfits.png"
-    }
-  },
-  {
-    "slug": "eco-friendly-options",
-    "name": "Eco-Friendly Options",
-    "meta": {
-      "image": "/images/collection/eco-friendly-options.png"
+      "image": "/images/collection/3.jpg"
     }
   }
 ]
