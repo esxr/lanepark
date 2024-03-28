@@ -1,42 +1,52 @@
 [
   {
     "link": "products[0].id",
-    "filename": "modern-minimal-top.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/modern-minimal-top.jpg"
+    "filename": "modern-minimal-top.png",
+    "url": "public/images/product/1.png"
   },
   {
     "link": "products[0].id",
-    "filename": "modern-minimal-pants.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/modern-minimal-pants.jpg"
+    "filename": "modern-minimal-pants.png",
+    "url": "public/images/product/2.png"
   },
   {
     "link": "products[1].id",
-    "filename": "professional-blazer.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/professional-blazer.jpg"
+    "filename": "professional-blazer.png",
+    "url": "public/images/product/3.png"
   },
   {
     "link": "products[1].id",
-    "filename": "professional-skirt.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/professional-skirt.jpg"
+    "filename": "professional-skirt.png",
+    "url": "public/images/product/4.png"
   },
   {
     "link": "products[2].id",
-    "filename": "casual-jacket.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/casual-jacket.jpg"
+    "filename": "casual-jacket.png",
+    "url": "public/images/product/5.png"
   },
   {
     "link": "products[2].id",
-    "filename": "casual-jeans.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/casual-jeans.jpg"
+    "filename": "casual-jeans.png",
+    "url": "public/images/product/6.png"
   },
   {
     "link": "products[3].id",
-    "filename": "eco-friendly-dress.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/eco-friendly-dress.jpg"
+    "filename": "eco-friendly-dress.png",
+    "url": "public/images/product/7.png"
   },
   {
     "link": "products[3].id",
     "filename": "eco-friendly-bag.jpg",
-    "url": "https://examplecdn.com/lanepark/collection/eco-friendly-bag.jpg"
+    "url": "public/images/product/8.jpg"
+  },
+  {
+    "link": "products[4].id",
+    "filename": "item-eight.jpg",
+    "url": "public/images/product/8.jpg"
+  },
+  {
+    "link": "products[5].id",
+    "filename": "item-nine.jpg",
+    "url": "public/images/product/9.jpg"
   }
 ]
